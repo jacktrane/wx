@@ -1,0 +1,504 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>青丘女君助力</title>
+<meta name="description" content="青丘女君助力" />
+<meta name="keywords" content="青丘女君助力" />
+<script type="text/javascript">
+
+niux = {wel:{}};
+niux.wel.config={'isShowTop':0, 'countDownTime': 0 , 'saveToDeskTitle':'','saveToDeskLink':'','icoUrl':'','gamename':'乾坤战纪','isWebLogin':0, 'autoOpenTime':'100','gameno':'qkzj','gameid':'000328','fenqunum':'','isAutoReOpen':0, 'autoReOpenTime':'0', 'autoReOpenUrl':'true', 'isCloseReOpen':0, 'closeReOpenUrl':'true'};
+NIUX_ACTNO = 'welcome1926';
+
+/*
+niux = {wel:{}};
+niux.wel.config={'isShowTop':0, 'countDownTime': 0 , 'saveToDeskTitle':'','saveToDeskLink':'','icoUrl':'','gamename':'唐门六道','isWebLogin':0, 'autoOpenTime':'100','gameno':'tmld','gameid':'000277','fenqunum':''};
+NIUX_ACTNO = 'welcome1739';
+*/
+
+//是否自动二次新开页面
+if(niux.wel.config.isAutoReOpen == 1){
+    setTimeout(function(){
+        actReportClick('reopen','autoReOpenUrl');
+        window.open(niux.wel.config.autoReOpenUrl);
+    }, niux.wel.config.autoReOpenTime * 1000);
+}
+
+
+</script>
+
+
+<!-- common_welcome_header_newLogin -->
+<script  type="text/javascript">
+function getCookie(a){return null==document.cookie.match(new RegExp("(^"+a+"| "+a+")=([^;]*)"))?"":decodeURIComponent(RegExp.$2)}function setRealCookie(a,b,c){if(arguments.length>2){var d=new Date((new Date).getTime()+864e5*c);document.cookie=a+"="+encodeURIComponent(b)+"; path=/; domain=xunlei.com; expires="+d.toGMTString()}else document.cookie=a+"="+encodeURIComponent(b)+"; path=/; domain=niu.xunlei.com"}function getUrlParam(a){if(!arguments.callee.obj){var d,e,b=location.href,c=b.indexOf("?"),f={};for(-1!=c?(b=b.substring(c+1),e=b.split("#")[0].split("&")):e=[],d=0;d<e.length;++d)e[d]=e[d].split("="),f[e[d][0]]=f[e[d][0].toLowerCase()]=e[d][1];arguments.callee.obj=f}return a?arguments.callee.obj[a]:arguments.callee.obj}function getRandomString(a){var b,c,d,e;for(a=a||32,b="ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678",c=b.length,d="",e=0;a>e;e++)d+=b.charAt(Math.floor(Math.random()*c));return d}function simpleReport(a,b){var c,d,e,f,g,h,i;a=a||{},a.op=void 0==a.op?"":a.op,a.adv_no=void 0==a.adv_no?getUrlParam("advNo")||getCookie("niuxAdvNo")||"":a.adv_no,a.game_id=void 0==a.game_id?"":a.game_id,a.game_svr_id=void 0==a.game_svr_id?"":a.game_svr_id,a.url=void 0==a.url?encodeURIComponent(window.location.href):a.url,a.ret_code=void 0==a.ret_code?encodeURIComponent(B.get("browser")):a.ret_code,a.sub_op=void 0==a.sub_op?0:a.sub_op,a.ptime=(new Date).getTime(),a.xl_user_id=void 0==a.xl_user_id?getCookie("userid"):a.xl_user_id,a.xl_user_name=void 0==a.xl_user_name?getCookie("usrname")||getCookie("usernewno"):a.xl_user_name,c=getCookie("niux_report_guid"),""==c&&(c=getRandomString(32),setRealCookie("niux_report_guid",c,1100)),a.guid=c,d=[];for(e in a)d.push(e+"="+a[e]);d.push("_rd="+(new Date).getTime()+Math.ceil(1e4*Math.random())),f="http://ct.niu.xunlei.com/r/act/",b=b||NIUX_ACTNO,g=f+b+"?"+d.join("&");try{h=new Image,i="mini_niux_log_"+Math.floor(2147483648*Math.random()).toString(36),window[i]=h,h.onload=h.onerror=h.onabort=function(){h.onload=h.onerror=h.onabort=null,h=window[i]=null},h.src=g}catch(i){}}var B=function(){var a=navigator.userAgent.toLowerCase(),b=function(b){return b.test(a)},c=function(b,c){var d;return b&&(d=c.exec(a))?parseFloat(d[1]):0},d="CSS1Compat"==document.compatMode,e=document.documentMode,f=b(/opera/),g=f&&b(/version\/10\.5/),h=b(/\bchrome\b/),i=b(/webkit/),j=!h&&b(/safari/),k=j&&b(/applewebkit\/4/),l=j&&b(/version\/3/),m=j&&b(/version\/4/),n=j&&b(/version\/5\.0/),o=j&&b(/version\/5/),p=!f&&b(/msie/),q=p&&(b(/msie 7/)&&8!=e&&9!=e||7==e),r=p&&(b(/msie 8/)&&7!=e&&9!=e||8==e),s=p&&(b(/msie 9/)&&7!=e&&8!=e||9==e),t=p&&b(/msie 6/),u=!i&&b(/gecko/),v=u&&b(/rv:1\.9/),w=u&&b(/rv:2\.0/),x=u&&b(/rv:5\./),y=u&&b(/rv:10\./),z=v&&b(/rv:1\.9\.0/),A=v&&b(/rv:1\.9\.1/),B=v&&b(/rv:1\.9\.2/),C=b(/windows|win32/),D=b(/macintosh|mac os x/),E=b(/linux/),F=c(!0,/\bchrome\/(\d+\.\d+)/),G=c(!0,/\bfirefox\/(\d+\.\d+)/),H=c(p,/msie (\d+\.\d+)/),I=c(f,/version\/(\d+\.\d+)/),J=c(j,/version\/(\d+\.\d+)/),K=c(i,/webkit\/(\d+\.\d+)/),L=/^https/i.test(window.location.protocol);return{isStrict:d,isIEQuirks:p&&!d,isOpera:f,isOpera10_5:g,isWebKit:i,isChrome:h,isSafari:j,isSafari3:l,isSafari4:m,isSafari5:o,isSafari5_0:n,isSafari2:k,isIE:p,isIE6:t,isIE7:q,isIE8:r,isIE9:s,isGecko:u,isGecko3:v,isGecko4:w,isGecko5:x,isGecko10:y,isFF3_0:z,isFF3_5:A,isFF3_6:B,isFF4:G>=4&&5>G,isFF5:G>=5&&6>G,isFF10:G>=10&&11>G,isLinux:E,isWindows:C,isMac:D,chromeVersion:F,firefoxVersion:G,ieVersion:H,operaVersion:I,safariVersion:J,webKitVersion:K,isSecure:L,get:function(a){var b="";return"browser"==a?b=f?"opera_"+I:h?"chrome_"+F:j?"safari_"+J:p?"ie_"+H:u?"gecko_"+G:"others":"platform"==a&&(b=E?"linux":C?"windows":D?"mac":"others"),b}}}();
+</script>
+
+
+<!-- welflash_top/head -->
+<style type="text/css" media="screen">
+/***
+@author:pengxueshan
+@design:changde
+@update:2014-10-28
+***/
+p,form,ul,li,ol,h1,h2,h3,h4,h5,h6,body,input,dd,dl{margin:0;padding:0;}
+ul,li,ol{list-style:none;list-style-position:outside;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+em,i{font-style:normal;}
+img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;color:#3c92c9;}
+a:hover{text-decoration:underline;}
+body{font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;color:#666;min-width:1000px;background-color:#000000;}
+.trans{-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;-ms-transition:all 0.3s ease;transition:all 0.3s ease;}
+.clear:after{content:".";display:block;clear:both;height:0px;visibility:hidden;}.clear{zoom:1;}
+
+.niux_top_s{height:32px;position:relative;z-index:200;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/top/top.png) repeat-x 0 0;}
+.niux_top_s .shadow{position:absolute;top:32px;left:0;width:100%;}
+.niux_top_s .shadow b{display:block;height:1px;overflow:hidden;background:#000;}
+.niux_top_s .shadow .line1{opacity:.3;filter:alpha(opacity=30);}
+.niux_top_s .shadow .line2{opacity:.1;filter:alpha(opacity=10);}
+.niux_top_s_layout{width:1000px;position:relative;margin:0 auto;}
+.niux_top_s_layout h1{float:left;}
+.niux_top_s_layout h1 a{display:block;width:148px;height:32px;text-indent:-999em;overflow:hidden;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/top/top.png) no-repeat 0 -79px;}
+.niux_top_s_save{position:absolute;left:338px;top:5px;line-height:22px;}
+.niux_top_s_save .niux_top_s_savetips,.niux_top_s_save  a{float:left;}
+.niux_top_s_save strong{font-weight:normal;color:#DA711A;}
+.niux_top_s_savetips{width:166px;}
+.niux_top_s_save_done{display:block;text-align:center;width:336px;}
+.niux_top_s_save a{text-decoration:underline;}
+.niux_top_s_save .savedeskbtn{width:58px;height:22px;line-height:22px;line-height:22px;color:#fff;text-decoration:none;font-family:\5FAE\8F6F\96C5\9ED1;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/top/top.png) no-repeat 0 -33px;padding-left:29px;margin-left:28px;}
+.niux_top_s_save .savedeskbtn:hover{background-position:0 -56px;}
+.niux_top_s_save .savedeskbtn .tosave ,.niux_top_s_save .savedeskbtn .saved{position: static; }
+.niux_top_s_fun{position:absolute;right:18px;top:8px;font-size:0;text-align:right;}
+.niux_top_s_fun li{display:inline-block;*display:inline;*zoom:1;vertical-align:top;font-size:12px;font-family:\5FAE\8F6F\96C5\9ED1;color:#7a7a7a;}
+.niux_top_s_fun li a{color:#7a7a7a;}
+.niux_top_s_fun .line{width:0;height:14px;overflow:hidden;border-right:1px solid #AEAEAE;margin:3px 17px 0;}
+</style>
+
+
+
+<!-- common_welcome_body_newLogin -->
+<style type="text/css">
+.player {margin: 0 auto; width: 1000px;}
+.flashlogin{font-size:12px;width:458px;height:369px;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/bg.png) no-repeat;position:fixed;_position:absolute;top:50%;left:50%;margin-top:-185px;margin-left:-229px;color:#Fff;z-index:1100;}
+.flashlogin .fl{float:left;_display:inline;}
+.flashlogin img{border:0;}
+.flashlogin a{color:#fff;}
+.flashlogin p{margin:0;}
+.flashlogin h3{text-indent:-999em;overflow:hidden;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/spr.png) no-repeat -999em -999em;margin:5px auto 0;}
+.flashlogin .tit_login{width:105px;height:36px;background-position:0 0;}
+.flashlogin .tit_reg{width:319px;height:31px;background-position:-106px 0;}
+.flashlogin .close{position:absolute;width:32px;height:32px;top:25px;right:9px;z-index:9999;}
+.flashlogin .loginwp,.flashlogin .regwp{position:absolute;left:0;width:100%;}
+.flashlogin .loginbox{position:relative;*zoom:1;margin-bottom:5px;}
+.flashlogin .loginbox:after{content:".";display:block;clear:both;height:0px;visibility:hidden;}
+.flashlogin .msg{position:absolute;color:#f00;top:-20px;left:133px;}
+.flashlogin .msg_ok{color:#0B8700;}
+.flashlogin .col{float:left;position:relative;}
+.flashlogin .col1{text-align:right;width:133px;position:relative;color:#FFFF00;font-weight:bold;line-height:22px;}
+.flashlogin .abs_lb{margin:5px 0 0;float:left;clear:left;white-space:nowrap;}
+.flashlogin .intxt{width:201px;height:20px;border:1px solid #868380;margin:0;padding:0;float:left;}
+.flashlogin .loginbox_ver .intxt{width:80px;}
+.flashlogin .verimg{margin-left:8px;}
+.flashlogin .verimg img{width:110px;}
+.flashlogin .loginbox_link .col1{height:1px;}
+.flashlogin .lbchk{margin:0 35px 0 0;*margin:5px 0 0;}
+.flashlogin .inchk{margin:1px 3px 0 0;width:13px;height:13px;*margin:0 3px 0 0;}
+.flashlogin .popboxbtn{display:block;width:170px;height:50px;text-indent:-999em;overflow:hidden;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/spr.png) no-repeat 0 -39px;margin:20px auto 0;}
+.flashlogin .btn_r_b{position:absolute;width:96px;height:27px;text-align:center;line-height:27px;right:25px;bottom:40px;text-decoration:none;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/spr.png) no-repeat 0 -93px;}
+.flashlogin .txt_r_b{position:absolute;right:25px;bottom:18px;color:#CCCCCC;}
+.flashlogin .txt_r_b strong{color:#FF0000;}
+.flashlogin .tips_pop{position:absolute;width:167px;height:38px;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/spr.png) no-repeat -176px -44px;left:205px;top:-8px;text-indent:-999em;overflow:hidden;}
+.accountpop{width:446px;height:293px;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/bg2.png) no-repeat;margin-top:-130px;margin-left:-223px;color:#B6B6B6;}
+.accountpop h3{font:40px \5FAE\8F6F\96C5\9ED1;top:-120px;left:-70px;position:absolute;text-indent:0;white-space:nowrap;font-weight:bold;color:#fff;}
+.accountpop h3 strong{color:#EA5921;font-size:60px;vertical-align:-10px;margin-right:10px;}
+.accountpop .close{width:34px;height:34px;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/spr.png) no-repeat -346px -44px;top:-41px;right:-42px;}
+.accountpop ol{padding:0;margin:0;list-style:none;padding:50px 22px 0 94px;font-family:\5FAE\8F6F\96C5\9ED1;}
+.accountpop ol li{position:relative;_vertical-align:top;padding:0;margin:0 0 35px;*zoom:1;}
+.accountpop ol .num{position:absolute;font-size:48px;top:-12px;left:-50px;font-weight:bold;}
+.accountpop ol .big{font-size:20px;font-weight:bold;line-height:24px;}
+.accountpop ol .small{font-family:\5B8B\4F53;}
+.accountpop ol strong{color:#4EA117;}
+.accountpop ol a{color:#621D0D;}
+
+.savedesktop{display:inline-block;*zoom:1;position:relative;z-index:110;width:130px;padding:5px 0 0;font-size:12px;vertical-align:middle;}
+.savedeskbtn{display:inline-block;*zoom:1;position:relative;margin:0 auto;color:#fff;overflow:hidden;text-decoration:none;}
+.savedesktop .savedeskbtn{width:96px;height:22px;line-height:22px;}
+.savedeskbtn .tosave,.savedeskbtn .saving,.savedeskbtn .saved{position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer;}
+.savedesktop .tosave,.savedesktop .saving,.savedesktop .saved{_height:22px;}
+.savedesktop .tosave{background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/desk.png) no-repeat 0 0;padding:0 0 0 20px;}
+.savedesktop .tosave:hover{background-position:0 -46px;}
+.savedeskbtn .mask{position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:.6;filter:alpha(opacity=60);}
+.savedesktop .mask{_height:22px;}
+.savedeskbtn .process{position:absolute;width:66px;height:7px;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/desk.png) no-repeat right 0;top:50%;left:50%;margin-top:-4px;margin-left:-33px;overflow:hidden;}
+.savedeskbtn .process i{display:block;height:7px;background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/desk.png) no-repeat -109px -9px;overflow:hidden;}
+.savedesktop .saved{background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/desk.png) no-repeat 0 -23px;padding:0 0 0 20px;}
+
+/* iframe logni/regist */
+.tit_login{text-indent: -999em;overflow: hidden;background: url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/spr.png) no-repeat -999em -999em;margin: 5px auto 0;}
+
+.txt_r_b{ position:absolute; top:317px; right:26px;}
+.txt_r_b strong { color:red;}
+.tit_reg{text-indent: -999em;overflow: hidden;background: url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/spr.png) no-repeat -106px 0px;margin: 5px auto 0;width: 319px;height: 36px;}
+.btn_log{height: 27px;width: 96px;position: absolute;color: #fff;left: 339px;top: 291px;background: url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/spr.png) 0 -93px; text-align:center; line-height:27px; text-decoration:none;}
+.btn_r_b{ height: 27px;width: 96px;position: absolute;color: #fff;left: 339px;top: 291px;background: url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/spr.png) 0 -93px;line-height: 27px;text-align: center;text-decoration: none;}
+.rode_box{position: absolute; top:190px; left:140px;}
+.rode_box input{width: 135px;border: 1px solid #313131;padding: 6px 13px;height: 16px;line-height: 16px;color: #000;z-index: 1;background: #fff;float: left;}
+.rode_box img{position: absolute; left:165px; top:1px; width:60px; height:28px;}
+.name_box{position: absolute;top: -8px;}
+.name_box span{position: absolute;width: 60px;text-align: right;color: #FF0;font-size: 14px;line-height: 30px; left:70px;}
+.user_name{ top:102px; left:70px;}
+.user_pw{ top:137px; }
+.user_pw2{top:171px; }
+.user_rode{top:207px;}
+.user_rode2{ top:171px;}
+
+.r_tips{position: absolute; width:167px; height:38px;  left:374px; overflow:hidden; line-height:300px; top:93px; background:url(http://img.smxj.webgame.kanimg.com/acts/welcome/newlogin/img/spr.png) -176px -44px;}
+/* iframe logni/regist end */
+
+</style>
+
+</head>
+<body>
+
+<div class="niux_top_s" id="header" style="display:none;">
+    <div class="niux_top_s_layout">
+        <h1><a href="http://niu.xunlei.com/" class="actReportLink" rdata="head:logo" target="_blank" title="迅雷牛x页游">迅雷牛x页游</a></h1>
+        <div class="niux_top_s_save" id="topSaveToDesktopHeadBox">
+            <span class="niux_top_s_savetips"><strong id="showtimes">10秒</strong>后将为您保存到桌面</span>
+            <a href="javascript:;" id="header-cancel">取消</a>
+            <strong id="topSaveToDesktopBtn">保存桌面</strong>
+            <!-- <a href="#" class="savedeskbtn" >立即保存</a> -->
+        </div>
+        <ul class="niux_top_s_fun">
+            <li><a href="" target="_blank" class="actReportLink" rdata="head:more">更多游戏&gt;&gt;</a></li>
+            <li class="line"></li>
+            <li><a href="javascript:;" id="header-setindex">加入收藏&gt;&gt;</a></li>
+        </ul>
+    </div>
+    <span class="shadow"><b class="line1"></b><b class="line2"></b></span>
+</div>
+
+<div class="player" id="player" onmousedown="goUrl()" style="width:1400px;margin:0 auto;">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="1400px" height="800px" id="index" align="middle">
+		<param name="allowScriptAccess" value="always" />
+		<param name="allowFullScreen" value="false" />
+		<param name="movie" value="http://i1.webgame.kanimg.com/20170317/1489734586663/index.swf" />
+		<param name="quality" value="high" />
+		<param name="wmode" value="transparent" />
+		<embed src="http://i1.webgame.kanimg.com/20170317/1489734586663/index.swf" _src="http://i3.webgame.kanimg.com/20160526/1464257939420/index.swf" quality="high" bgcolor="#000000" _width='100%' width="1400px" _height="700" height="800px" name="index" align="middle" allowScriptAccess="always" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" />
+	</object>
+</div>
+<script  type="text/javascript">
+simpleReport({op:'heart_beat',sub_op:'1',score:'0',game_id:niux.wel.config['gameid']});
+</script>
+
+<div class="flashlogin accountpop" style="display:none;" id="niuxLoginPopBox_noregBox">
+    <h3>无需注册 无需等待 <strong>3</strong>步进入游戏</h3>
+    <a href="javascript:;" class="close actReportLink" rdata="popup:noreg_step" m-data-class="close" title="关闭"></a>
+    <ol>
+        <li>
+            <span class="num">1</span>
+            <p class="big">生成永久账号<strong>已完成</strong></p>
+            <p class="small">无需您自己注册,直接开始游戏</p>
+        </li>
+        <li>
+            <span class="num">2</span>
+            <p class="big">将游戏保存到桌面<span id="topSaveToDesktopBox" class="savedesktop actReportLink"  rdata="niuxLoginPop:savedesktop"><a href="javascript:;">点击保存</a></span></p>
+            <p class="small">帐号可以保存每次游戏进度,点击桌面图标,即可轻松继续游戏</p>
+        </li>
+        <li>
+            <span class="num">3</span>
+            <p class="big"><a href="javascript:;" m-data-class="enterYouKePageGame" class="actReportLink enterYouKePageGame" rdata="niuxLoginPop:enterGame">进入游戏</a></p>
+            <p class="small">下次玩游戏,直接双击桌面生成的图标,就可以进入游戏哦...</p>
+        </li>
+    </ol>
+</div>
+
+<div class="layer" id="niuxLoginPopBox_cover" style="z-index:99;top:0px;left:0px;display:none;position:fixed;_position:absolute;width:100%;height:100%;background:#000;opacity:.6;filter:alpha(opacity=60);"></div>
+
+
+    <div class="flashlogin cur" id="niuxLoginPopBox_regBox" style="display:none;">
+        <h3 class="tit_reg js-pop-title">注册</h3>
+        <a href="javascript:;" class="close actReportLink" rdata="popup:reg" title="关闭" ></a>
+        <div class="loginwp" style="display:;">
+            <div id="reg_box"></div>
+        </div>
+        <div class="name_box" id="reg-name" style="display:none;">
+            <span class="user_name">用户名</span>
+            <span class="user_pw">密码</span>
+            <span class="user_pw2">确认密码</span>
+
+        </div>
+        <div class="name_box" id="login-name" style="display:none;">
+            <span class="user_name">用户名</span>
+            <span class="user_pw">密码</span>
+
+        </div>
+
+        <p class="r_tips"></p>
+        <a href="javascript:;" class="btn_log" title="注册帐号" id="niuxLoginPopBox_nav_reg">注册帐号</a>
+        <a href="javascript:;" class="btn_r_b" id="niuxLoginPopBox_nav_login">老用户登录</a>
+        <p class="txt_r_b">当前注册在线用户数：<strong>585724</strong></p>
+    </div>
+
+
+<!-- javascript -->
+<script type="text/javascript" src="http://static.webgame.kanimg.com/com/??jquery-1.8.2.min.js,niux.extend-1.1.6.js,niux.advno.js,niux.login-2.0.1.js,niux.game-1.0.4.js,md5.js,niux.saveToDesktop-1.0.2.js"></script>
+
+<script type="text/javascript" src="http://i.xunlei.com/login/2.5/qLogin.min.js"></script>
+
+<script type="text/javascript">
+$.cookie('niuxActNo', NIUX_ACTNO,{domain:'niu.xunlei.com'});
+</script>
+
+<script>
+
+//素材id
+var mid = $.getUrlParam('mid') || '';
+
+var NiuxLoginModule = Class.create();
+NiuxLoginModule.getInstance = function() {
+    if (!this._instance) {
+        this._instance = new NiuxLoginModule();
+    }
+    return this._instance;
+};
+
+NiuxLoginModule.prototype = {
+    /*初始化*/
+    initialize: function() {
+        var _this = this;
+
+        /**
+        * 初始化的默认配置
+        * @private
+        */
+        this.defaultInitConfig = {
+        };
+
+        /**
+        * 默认配置,可以在init或show时传入
+        * @private
+        */
+        this.defaultConfig = {
+            loginOkCallBack: function(){}, //登陆成功回调
+            regOkCallBack: function(){}, //注册成功回调
+            isCheckLogin: true //show的时候是否先检查已经登陆，如果已经登陆了就直接doLogin并且$.login.refresh();，默认true
+        };
+
+        _this.initConfig = _this.defaultInitConfig;
+    },
+
+    init : function(){
+        var _this = this;
+        /**
+        * 判断是否已经init()了，只能初始化一次
+        * @private
+        */
+        this.isAlreadyInit = false;
+
+
+        _this.loginOkCallBack = function() {};
+
+        xlQuickLogin.init({
+            loginID: '103',
+            REGISTER_ID: 'niux_web',
+            IFRAME_ALLOW_TRANSPARENCY : true,
+            UI_STYLE: 'http://static.webgame.kanimg.com/act/welcome/login.css',
+            IFRAME_STYLE: {
+                'width': '545px',
+                'height': '337px'
+            },
+            DEFUALT_UI : 'register',
+            THIRD_LOGIN_DISPLAY : false,
+            REGISTER_TYPES: ['account'],
+            LOGIN_SUCCESS_FUNC: function() {
+                $.report.log({
+                  game_id: niux.wel.config.gameid,
+                  act_no: NIUX_ACTNO
+                });
+
+                NiuxLoginModule.getInstance().doLogin(); //登录成功执行回调
+                //$.login.refresh();
+                $.game.enterPageGame(niux.wel.config.gameno, niux.wel.config.fenqunum, "_self", {
+                actNo: NIUX_ACTNO,
+                mid : mid
+                });
+
+            },
+            LOGOUT_FUNC: function() {
+
+            },
+
+            REGISTER_SUCCESS_FUNC: function () {
+                //上报
+                $.report.register({
+                    game_id: niux.wel.config.gameid,
+                    act_no: NIUX_ACTNO
+                });
+
+                $.game.enterPageGame(niux.wel.config.gameno, niux.wel.config.fenqunum, "_self", {
+                    actNo: NIUX_ACTNO,
+                    mid : mid
+                });
+            },
+            AUTO_LOGIN_EXPIRE_TIME : 0, //禁止自动登录
+            SET_ROOT_DOMAIN: true
+        });
+
+        xlQuickLogin.getLoginIframe('reg_box');
+
+        this.isAlreadyInit = true;
+    },
+
+    /*登录成功*/
+    doLogin: function() {
+        this.hide();
+        (typeof(this.loginOkCallBack) == 'function') && this.loginOkCallBack();
+    },
+
+
+    showReg: function(){
+        var _this = this;
+
+        if(!_this.isAlreadyInit){
+            return ;
+        }
+        xlQuickLogin.showUI('register');
+
+        $('.js-pop-title').removeClass('tit_login');
+        $('.js-pop-title').addClass('tit_reg');
+
+        $('#reg-name').show();
+        $('#login-name').hide();
+
+        $('#niuxLoginPopBox_nav_reg').hide();
+        $('#niuxLoginPopBox_nav_login').show();
+
+        $('#niuxLoginPopBox_regBox').show();
+        $('#niuxLoginPopBox_cover').show();
+
+    },
+
+    showLogin: function(){
+        var _this = this;
+        if(!_this.isAlreadyInit){
+            return ;
+        }
+        xlQuickLogin.showUI('login');
+
+        $('.js-pop-title').addClass('tit_login');
+        $('.js-pop-title').removeClass('tit_reg');
+
+        $('#reg-name').hide();
+        $('#login-name').show();
+
+        $('#niuxLoginPopBox_nav_login').hide();
+        $('#niuxLoginPopBox_nav_reg').show();
+
+        $('#niuxLoginPopBox_regBox').show();
+        $('#niuxLoginPopBox_cover').show();
+    },
+
+
+    center: function() {
+        var curTop = 0;
+        var windowHeight = $(window).height();
+        var windowScrollTop = $(window).scrollTop();
+        curTop = windowScrollTop + ((windowHeight - 520) / 2);
+        this.loginPopBox.css({
+            'top': curTop + 'px',
+            'margin-top': '0px',
+            'position': 'absolute'
+        });
+    },
+
+    hide: function() {
+        $("#niuxLoginPopBox_regBox").hide();
+        $("#niuxLoginPopBox_noregBox, #niuxLoginPopBox_cover").hide();
+    }
+};
+
+$(document).ready(function(){
+    NiuxLoginModule.getInstance().init();
+});
+
+window.login = function(){
+    if(!$.login.isLogined()){
+        NiuxLoginModule.getInstance().showReg();
+    }
+}
+
+
+window.onbeforeunload = function(){
+    actReportClick('wintab','close');
+
+    //关闭浏览器窗口时新开页面
+    if(niux.wel.config.isCloseReOpen == 1){
+        actReportClick('reopen','closeReOpenUrl');
+        window.open(niux.wel.config.closeReOpenUrl);
+    }
+};
+
+</script>
+
+
+<!-- welflash_top/head_js -->
+<script type="text/javascript">
+!function(){function g(){return b?(f=null,void 0):(e-=1,f.innerHTML=e+"秒",0==e?($("#topSaveToDesktopBtn a").click(),f=null,void 0):(setTimeout(arguments.callee,1e3),void 0))}var c,d,e,f,a=niux.wel.config,b=!1;if(a.isShowTop){if($("#header").show(),c={title:a.saveToDeskTitle,lnkUrl:a.saveToDeskLink,icoUrl:a.icoUrl||"http://act.niu.xunlei.com/2014/5126/desk.ico",saveText:"立即保存",savedText:"已保存"},SaveToDesktopModule.getInstance().init({clickHandler:function(){b=!0,actReportClick("head","savedesktop")},callback:function(a){return a?($("#topSaveToDesktopHeadBox").html('<strong class="niux_top_s_save_done">游戏快捷方式已保存到桌面！</strong>'),void 0):void 0}}),d=SaveToDesktopModule.getInstance().createTo("topSaveToDesktopBtn",c),-1==d)$("#topSaveToDesktopBtn").html('<a href="http://dyact.niu.xunlei.com/act_com/shortcut.php?gname='+encodeURIComponent(c.title)+"&url="+encodeURIComponent(c.lnkUrl)+'" class="savedeskbtn" ><span class="tosave" style="display:;">立即保存</span></a>');else if(0==d)return $("#topSaveToDesktopHeadBox").html('<strong class="niux_top_s_save_done">游戏快捷方式已保存到桌面！</strong>'),void 0;e=a.countDownTime,f=document.getElementById("showtimes"),g(),$("#header-cancel").on("click",function(){return b=!0,!1})}}(),function(){$("#header-setindex").on("click",function(){return $.bookMark(document.title,window.location.href),actReportClick("header","sethome"),!1})}();
+</script>
+
+
+<!-- common_welcome_bottom_newLogin -->
+<!-- <script type="text/javascript" src="http://s22.cnzz.com/z_stat.php?id=1000156503&web_id=1000156503"></script> -->
+<script type="text/javascript">
+!function(a,b){
+    a.actReportClick=function(a,c){var d={op:"button_click",game_id:"",game_svr_id:"",sub_op:a||"",item_id:c||""};b.report.sendRequest(d,b.report.baseUrl+b.cookie("niuxActNo"))},b("body").on("click",".actReportLink",function(){var c,a=b(this).attr("rdata");a&&-1!=a.indexOf(":")&&(c=a.split(":"),actReportClick(c[0],c[1]))})}(window,jQuery),function(a,b){var g,h,c="http://ct.niu.xunlei.com/r/act/"+NIUX_ACTNO,d=niux.wel.config.gameid,e=niux.wel.config.fenqunum,f=1;b(function(){g(),b("body").children("a:last").hide()}),g=function(){var a=parseInt(niux.wel.config.autoOpenTime);!niux.wel.config.isWebLogin&&0>=a||(a=parseInt(1e3*a),setTimeout(function(){f&&h()},a))},h=function(){var a={op:"auto_enter_game",game_id:d,game_svr_id:e};b.report.sendRequest(a,c),setTimeout(function(){b.game.enterYouKePageGame(niux.wel.config.gameno,e,"_self",{actNo:NIUX_ACTNO,mid:mid})},500)},a.goUrl=function(){b.report.sendRequest({op:"click_enter_game",game_id:d,game_svr_id:e},c),f=0,setTimeout(function(){niux.wel.config.isWebLogin?b.game.enterYouKePageGame(niux.wel.config.gameno,e,"_self",{actNo:NIUX_ACTNO,mid:mid}):b.login.isLogined()?b.game.enterPageGame(niux.wel.config.gameno,e,"_self",{actNo:NIUX_ACTNO,mid:mid}):login()},100)},a.niuxact_LoginHook=function(){niux.wel.config.isWebLogin?b.game.enterYouKePageGame(niux.wel.config.gameno,e,"_self",{actNo:NIUX_ACTNO,mid:mid}):b.game.enterPageGame(niux.wel.config.gameno,e,"_self",{actNo:NIUX_ACTNO,mid:mid})
+}}(window,jQuery);
+
+
+    var tmpdate = new Date;
+    var randNum = 583569+100*tmpdate.getHours()+tmpdate.getMinutes()+10*tmpdate.getDate()+tmpdate.getSeconds()*parseInt(10*Math.random());
+    $(".txt_r_b strong").html(randNum);
+
+
+    $('#niuxLoginPopBox_nav_login').click(function(){
+        NiuxLoginModule.getInstance().showLogin();
+    });
+
+    $('#niuxLoginPopBox_nav_reg').click(function(){
+        NiuxLoginModule.getInstance().showReg();
+    });
+
+
+    $("#niuxLoginPopBox_regBox .close").click(function(){
+        $("#niuxLoginPopBox_regBox").hide();
+        $("#niuxLoginPopBox_noregBox, #niuxLoginPopBox_cover").show();
+    });
+
+    $("#niuxLoginPopBox_noregBox .close").click(function(){
+        $("#niuxLoginPopBox_noregBox, #niuxLoginPopBox_cover").hide();
+    }); 
+
+    $("#niuxLoginPopBox_noregBox .enterYouKePageGame").click(function(){
+        var serverId = niux.wel.config.fenqunum || '';
+        $.game.enterYouKePageGame(niux.wel.config.gameno,serverId,"_self",{actNo:NIUX_ACTNO,mid:mid});
+    });
+
+    (function(a,b){
+        var c={title:"[迅雷]"+niux.wel.config.gamename,lnkUrl:b.game.getYouKePageGameUrl(niux.wel.config.gameno,niux.wel.config.fenqunum),icoUrl:"http://niu.xunlei.com/icon/"+niux.wel.config.gameid+".ico",saveText:"点击保存",savedText:"已保存到桌面"};
+        b("#topSaveToDesktopBox a").attr("href","http://dyact.niu.xunlei.com/act_com/shortcut.php?gname="+encodeURIComponent(niux.wel.config.gamename)+"&url="+encodeURIComponent(c.lnkUrl))
+    })(window,$);
+
+</script>
+
+ <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1000156503' style='display:none;' %3E%3C/span%3E%3Cscript  src='" + cnzz_protocol + "s96.cnzz.com/z_stat.php%3Fid%3D1000156503' type='text/javascript'%3E%3C/script%3E"));</script>
+
+ <!-- cpa 游戏方统计 -->
+ <script src="http://s95.cnzz.com/z_stat.php?id=1260805996&web_id=1260805996" language="JavaScript"></script>
+
+</body>
+</html>
